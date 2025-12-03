@@ -1,0 +1,47 @@
+  <!DOCTYPE html>  
+  <html lang="en"><head>  
+    <meta charset="UTF-8">  
+    <title>Project HK</title>  
+    <link rel="stylesheet" href="style.css">  
+      <link rel="icon" href="icon.jpeg" type="image/jpeg">
+      <link rel="shortcut icon" href="icon" type="image/x-icon">
+      <link rel="shortcut icon" href="search-interface-symbol.png" type="image/x-icon">
+  </head>  
+  <body style="background-image: url(&quot;wallpaper3.jpg&quot;);">  
+    <main>  
+      <button id="button-menu" type="button" onclick="openMenu()" class="">Menu</button>
+      <div class="menu">
+        <ul>
+          <p>Settings</p>
+          <li class="setting">
+            <button id="changeBackground">Change Background</button>
+          </li>
+          </ul>
+      </div>
+ <div class="day_and_clock">
+        <h1"><span id="clock"></span></h1>
+    <h1><span id="day"></span></h1>
+    </div>
+      <section id="section1">  
+        <div class="search active" id="searchBox">  
+          <form id="searchForm" action="https://www.bing.com/search/" method="get" accept-charset="utf-8">  
+            <input type="search" name="q" id="inputSearchMain" placeholder="Search" onclick="searchTransition()" class="active">  
+          </form>  
+        </div>  
+        <div class="groupshortcut">  
+          <div class="shortcutapp active" id="shortcutBox">  
+            <div id="youtube"><a href="https://www.youtube.com/"><img src="youtube.png" alt="YouTube"></a></div>  
+            <div id="facebook"><a href="https://www.facebook.com/"><img src="facebook.png" alt="Facebook"></a></div>  
+            <div id="tiktok"><a href="https://www.tiktok.com"><img src="tiktok.png" alt="TikTok"></a></div>  
+            <div id="instagram"><a href="https://www.instagram.com/"><img src="instagram.png" alt="Instagram"></a></div>  
+            <div id="telegram"><a href="https://web.telegram.org/"><img src="telegram.png" alt="Telegram"></a></div>  
+            <div id="spotify"><a href="https://open.spotify.com/intl-id"><img src="spotify.png" alt="Spotify"></a></div>  
+            <div id="twitch"><a href="https://www.twitch.tv/"><img src="twitch.png" alt="Twitch"></a></div>  
+            <div id="pin"><a href="https://id.pinterest.com/"><img src="pin.png" alt="Pinterest"></a></div>  
+          </div>  
+        </div>  
+      </section> 
+
+    </main>  
+
+    <script src="script.js"></script>  </body></html>
